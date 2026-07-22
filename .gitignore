@@ -1,0 +1,19 @@
+.env
+commands-c2s-vpn.txt
+commands-s2s-vpn.txt
+cognos.txt
+*.pem
+*.ovpn
+*.vm
+call.py
+tmp-env
+vm-windows-ibmcloud.txt
+c2s-off.txt
+s2s-cloud-c2s-env.sh
+environment/*
+archive/*
+cognos wx.ai site2site vpn.mp4
+env.sh
+slides/*
+*.pptx
+diagrams/*
