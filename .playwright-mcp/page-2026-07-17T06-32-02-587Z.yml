@@ -1,0 +1,396 @@
+- generic [ref=e7]:
+  - banner [ref=e8]:
+    - generic [ref=e13]:
+      - generic:
+        - navigation "Skip to content":
+          - link "Skip to content" [ref=e14] [cursor=pointer]:
+            - /url: "#main-content"
+        - link "IBM logo" [ref=e17] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+      - generic [ref=e23]:
+        - link "Documentation" [ref=e26] [cursor=pointer]:
+          - /url: https://www.ibm.com/docs/en
+        - generic [ref=e27]:
+          - search [ref=e28]:
+            - combobox "IBM search field" [expanded] [ref=e29]:
+              - textbox "IBM search field" [ref=e30]:
+                - /placeholder: Search in IBM watsonx as a Service
+              - generic:
+                - listbox "suggestions-list"
+          - generic [ref=e31]:
+            - button "Search all of IBM" [ref=e32] [cursor=pointer]
+            - button "Clear input" [ref=e35] [cursor=pointer]
+      - generic [ref=e39]:
+        - button "User profile" [ref=e40] [cursor=pointer]
+        - generic: My IBM
+        - generic: Log in
+    - complementary "Dark mode button":
+      - generic [ref=e43]:
+        - button "Dark mode" [ref=e45] [cursor=pointer]
+        - tooltip
+  - generic [ref=e48]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - navigation "TOC version selector" [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: IBM watsonx
+            - generic [ref=e56]:
+              - button "Close table of contents" [ref=e58] [cursor=pointer]
+              - tooltip
+          - generic [ref=e61]: Change version
+          - complementary "Check full TOC" [ref=e62]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: Select
+              - combobox "Change version" [ref=e67] [cursor=pointer]:
+                - option "SaaS" [selected]
+                - option "IBM watsonx.data"
+                - option "IBM watsonx.ai and watsonx.governance"
+                - option "IBM watsonx Orchestrate"
+                - option "IBM watsonx Assistant for Z"
+                - option "IBM watsonx Code Assistant for Z"
+                - option "IBM watsonx.data intelligence and watsonx.data integration"
+        - complementary "Show full table of contents" [ref=e68]:
+          - generic [ref=e69]:
+            - checkbox "Show full table of contents" [checked] [ref=e70]
+            - generic [ref=e71] [cursor=pointer]: Show full table of contents
+        - search "Filter on titles" [ref=e74]:
+          - searchbox "Filter on titles" [ref=e76]
+      - navigation "TOC navigation" [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - link "Documentation home" [ref=e83] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=documentation-home
+              - listitem [ref=e84]:
+                - link "Overview of IBM watsonx" [ref=e86] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=overview-watsonx
+              - listitem [ref=e90]:
+                - link "Developer Hub" [ref=e92] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=developer-hub
+              - listitem [ref=e96]:
+                - link "Planning an AI solution" [ref=e98] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=planning-ai-solution
+              - listitem [ref=e102]:
+                - link "Getting started and tutorials" [ref=e104] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=getting-started-tutorials
+              - listitem [ref=e108]:
+                - link "Gen AI solutions" [ref=e110] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=gen-ai-solutions
+              - listitem [ref=e114]:
+                - link "Projects" [ref=e116] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=projects
+              - listitem [ref=e120]:
+                - link "Deployment spaces" [ref=e122] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=deployment-spaces
+              - listitem [ref=e126]:
+                - link "Preparing data" [ref=e128] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=preparing-data
+              - listitem [ref=e132]:
+                - link "Data science solutions" [ref=e134] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=data-science-solutions
+              - listitem [ref=e138]:
+                - link "Deploying AI" [expanded] [ref=e140] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=deploying-ai
+                - list [ref=e145]:
+                  - listitem [ref=e146]:
+                    - link "Service endpoints" [ref=e148] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=ai-service-endpoints
+                  - listitem [ref=e149]:
+                    - link "Deploying AI assets" [ref=e151] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=ai-deploying-assets
+                  - listitem [ref=e155]:
+                    - link "Orchestrating tasks with Orchestration Pipelines" [ref=e157] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=ai-orchestrating-tasks-orchestration-pipelines
+                  - listitem [ref=e161]:
+                    - link "Decision Optimization" [ref=e163] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=ai-decisionoptimization
+              - listitem [ref=e167]:
+                - link "Governing AI" [ref=e169] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=governing-ai
+              - listitem [ref=e173]:
+                - link "Administration" [ref=e175] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=administration
+              - listitem [ref=e179]:
+                - link "Glossary" [ref=e181] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=glossary
+        - link "Announcements & sales manuals" [ref=e183] [cursor=pointer]:
+          - /url: /docs/en/watsonx/saas?announcement=watsonx-prem-cloud
+      - complementary "Download PDF" [ref=e187]:
+        - link "Download PDF" [ref=e190] [cursor=pointer]:
+          - /url: /docs/en/SSYOK8/pdf/watsonx-saas-documentation.pdf
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - navigation "Breadcrumb" [ref=e199]:
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - link "All products" [ref=e202] [cursor=pointer]:
+                - /url: /docs/en/products
+              - text: /
+            - listitem [ref=e203]:
+              - link "IBM watsonx" [ref=e204] [cursor=pointer]:
+                - /url: /docs/en/watsonx
+              - text: /
+            - listitem [ref=e205]:
+              - link "SaaS" [ref=e206] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas
+              - text: /
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e210]: Was this topic helpful?
+            - complementary "Topic rating buttons" [ref=e211]:
+              - generic [ref=e212]:
+                - button "positive feedback" [ref=e214] [cursor=pointer]
+                - tooltip
+              - generic [ref=e217]:
+                - button "negative feedback" [ref=e219] [cursor=pointer]
+                - tooltip
+          - complementary "Positive feedback module"
+          - complementary "Negative feedback module"
+          - complementary "provide more feedback"
+      - main [ref=e225]:
+        - article [ref=e226]:
+          - generic [ref=e227]:
+            - heading "Managing the watsonx.ai Runtime service endpoint" [level=1] [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]: Last Updated
+              - text: ": 2026-05-22"
+            - paragraph [ref=e231]: You can use IBM Cloud connectivity options for accessing cloud services securely by using service endpoints. When you provision a watsonx.ai Runtime service instance, you can choose if you want to access your service through the public internet, which is the default setting, or over the IBM Cloud private network.
+            - paragraph [ref=e232]: How you access service endpoints depends on the Cloud platform you are using.
+            - generic [ref=e233]:
+              - heading "Accessing endpoints on IBM Cloud" [level=2] [ref=e234]
+              - paragraph [ref=e235]: "You can use the Service provisioning page to choose a default endpoint from the following options:"
+              - list [ref=e236]:
+                - listitem [ref=e237]:
+                  - text: –
+                  - link "Public network" [ref=e238] [cursor=pointer]:
+                    - /url: "#public_net"
+                - listitem [ref=e239]:
+                  - text: –
+                  - link "Private network" [ref=e240] [cursor=pointer]:
+                    - /url: "#private_net"
+                - listitem [ref=e241]: – Both, public and private networks
+              - paragraph [ref=e242]:
+                - text: For more information, refer to
+                - link "IBM Cloud service endpoints" [ref=e243] [cursor=pointer]:
+                  - /url: https://cloud.ibm.com/docs/account?topic=account-vrf-service-endpoint
+                - text: .
+            - generic [ref=e244]:
+              - heading "Public network" [level=2] [ref=e245]
+              - paragraph [ref=e246]: You can use public network endpoints to connect to watsonx.ai Runtime service instance on the public network. Your environment needs to have internet access to connect.
+            - generic [ref=e247]:
+              - heading "Private network" [level=2] [ref=e248]
+              - paragraph [ref=e249]: You can use private network endpoints to connect to your IBM watsonx.ai Runtime service instance over the IBM Cloud Private network. After you configure your watsonx.ai Runtime service to use private endpoints, the service is not accessible from the public internet.
+              - generic [ref=e250]:
+                - heading "Private URLs for watsonx.ai Runtime" [level=3] [ref=e251]
+                - paragraph [ref=e252]: "Private URLs for watsonx.ai Runtime for each region are as follows:"
+                - list [ref=e253]:
+                  - listitem [ref=e254]:
+                    - text: – Dallas -
+                    - link "https://private.us-south.ml.cloud.ibm.com" [ref=e255] [cursor=pointer]:
+                      - /url: https://private.us-south.ml.cloud.ibm.com
+                  - listitem [ref=e256]:
+                    - text: – London -
+                    - link "https://private.eu-gb.ml.cloud.ibm.com" [ref=e257] [cursor=pointer]:
+                      - /url: https://private.eu-gb.ml.cloud.ibm.com
+                  - listitem [ref=e258]:
+                    - text: – Frankfurt -
+                    - link "https://private.eu-de.ml.cloud.ibm.com" [ref=e259] [cursor=pointer]:
+                      - /url: https://private.eu-de.ml.cloud.ibm.com
+                  - listitem [ref=e260]:
+                    - text: – Tokyo -
+                    - link "https://private.jp-tok.ml.cloud.ibm.com" [ref=e261] [cursor=pointer]:
+                      - /url: https://private.jp-tok.ml.cloud.ibm.com
+            - generic [ref=e262]:
+              - heading "Using IBM Cloud service to enable private endpoints" [level=2] [ref=e263]
+              - paragraph [ref=e264]: "Follow these steps to enable private network endpoints on your clusters:"
+              - list [ref=e265]:
+                - listitem [ref=e266]:
+                  - text: Use
+                  - link "IBM Cloud CLI" [ref=e267] [cursor=pointer]:
+                    - /url: https://cloud.ibm.com/docs/cli?topic=cli-getting-started
+                  - text: to enable your account to use IBM Cloud service endpoints.
+                - listitem [ref=e268]: Provision a watsonx.ai Runtime service instance with private endpoints.
+            - generic [ref=e269]:
+              - heading "Provisioning with service endpoints (Dallas, Frankfurt, Tokyo, London)" [level=2] [ref=e270]
+              - paragraph [ref=e271]: You can provision a watsonx.ai Runtime service instance with service endpoint by using IBM Cloud UI or IBM Cloud CLI.
+              - generic [ref=e272]:
+                - heading "Provisioning a service endpoint with IBM Cloud UI" [level=3] [ref=e273]
+                - paragraph [ref=e274]:
+                  - text: To configure the endpoints of your IBM watsonx.ai Runtime service instance, you can use the
+                  - strong [ref=e275]: Endpoints
+                  - text: field on the IBM Cloud catalog page. You can configure a public, private, or a mixed network.
+                - paragraph [ref=e276]:
+                  - img "Configure endpoint from the service catalog" [ref=e277]
+              - generic [ref=e278]:
+                - heading "IBM Cloud CLI" [level=3] [ref=e279]
+                - paragraph [ref=e280]:
+                  - text: If you provision an IBM watsonx.ai Runtime service instance by using the IBM Cloud CLI, use the command-line option service-endpoints to configure the watsonx.ai Runtime endpoints. You can specify the value
+                  - code [ref=e281]: public
+                  - text: (the default value),
+                  - code [ref=e282]: private
+                  - text: ", or"
+                  - code [ref=e283]: public-and-private
+                  - text: ":"
+                - generic [ref=e284]:
+                  - generic "Code snippet" [ref=e285]:
+                    - code [ref=e287]: ibmcloud resource service-instance-create <service instance name> pm-20 <plan_name> <region> --service-endpoints <private/public/public-and-private>
+                  - generic [ref=e288]:
+                    - button "Copy to clipboard" [ref=e290] [cursor=pointer]
+                    - tooltip
+                - paragraph [ref=e294]: "For example:"
+                - generic [ref=e295]:
+                  - generic "Code snippet" [ref=e296]:
+                    - code [ref=e298]: ibmcloud resource service-instance-create wml-instance pm-20 standard us-south -p --service-endpoints private
+                  - generic [ref=e299]:
+                    - button "Copy to clipboard" [ref=e301] [cursor=pointer]
+                    - tooltip
+                - paragraph [ref=e305]: or
+                - generic [ref=e306]:
+                  - generic "Code snippet" [ref=e307]:
+                    - code [ref=e309]: ibmcloud resource service-instance-create wml-instance pm-20 standard us-south --service-endpoints public-and-private
+                  - generic [ref=e310]:
+                    - button "Copy to clipboard" [ref=e312] [cursor=pointer]
+                    - tooltip
+              - generic [ref=e316]:
+                - heading "Provisioning a service endpoint (Sydney and Toronto)" [level=3] [ref=e317]
+                - paragraph [ref=e318]: To provision a service endpoint for a watsonx.ai Runtime instance in either the Sydney or Toronto region, you must request access to a Private Catalog. After the request is approved, you can share the endpoint as a Virtual Private Endpoint.
+                - generic [ref=e319]:
+                  - heading "Requesting access to a private catalog" [level=4] [ref=e320]
+                  - paragraph [ref=e321]: "To request access to a Private Catalog, follow these steps:"
+                  - list [ref=e322]:
+                    - listitem [ref=e323]:
+                      - text: Use
+                      - link "IBM Cloud CLI" [ref=e324] [cursor=pointer]:
+                        - /url: https://cloud.ibm.com/docs/cli?topic=cli-getting-started
+                      - text: to enable your account to use IBM Cloud service endpoints.
+                    - listitem [ref=e325]: Contact IBM Support and submit a request, asking the watsonx.ai Runtime team provide you with access to a Private Catalog. You must supply your IBM Cloud accountID with the request.
+                    - listitem [ref=e326]:
+                      - text: When the watsonx.ai Runtime team provides access to the Private Catalog to customers account ID, you can view the completed request and catalog details from
+                      - strong [ref=e327]: Manage>Catalogs>Share requests
+                      - text: in the IBM Cloud console. You can then create a virtual private endpoint gateway.
+                    - listitem [ref=e328]:
+                      - text: "Select Virtual Private Endpoint as the catalog type. For example:"
+                      - img "Sharing a request from the IBM Cloud console" [ref=e329]
+                    - listitem [ref=e330]:
+                      - text: Follow the steps to create a
+                      - link "Virtual private endpoint gateways for VPC" [ref=e331] [cursor=pointer]:
+                        - /url: https://cloud.ibm.com/infrastructure/network/endpointGateways
+                      - text: ". Use the following as the Private Catalog display names for the Sydney and Toronto data centers:"
+                      - list [ref=e332]:
+                        - listitem [ref=e333]: "▪ SYDNEY : mcsp-wml-sydprod"
+                        - listitem [ref=e334]: "▪ TORONTO : mcsp-wml-torprod"
+                - generic [ref=e335]:
+                  - heading "Reviewing a share request" [level=4] [ref=e336]
+                  - paragraph [ref=e337]: "To review the share request from the IBM Cloud CLI, use the following command:"
+                  - generic [ref=e338]:
+                    - generic "Code snippet" [ref=e339]:
+                      - code [ref=e341]: "ibmcloud catalog account get-approval-list-source --object-kind vpe --approval-state pending { \"first\": \"/api/v1-beta/shareapproval/vpe/access/source/pending?limit=100\", \"limit\": 100, \"resource_count\": 1, \"resources\": [ { \"_id\": \"<account_ID>\", \"_rev\": \"1-6703f335f8ca2330aa22a7e542700d58\", \"account\": \"ab1cde234f5g678h9ij10k1l234m56\", \"account_type\": 3, \"approval_state\": \"pending\", \"created\": \"2025-02-26T01:15:21.513749288-05:00\", \"id\": \"-acct-ab1cde234f5g678h9ij10k1l234m56\", \"target_account\": \"<target_account_ID>\", \"target_kind\": \"vpe\" } ] }"
+                    - generic [ref=e342]:
+                      - button "Copy to clipboard" [ref=e344] [cursor=pointer]
+                      - tooltip
+                - generic [ref=e348]:
+                  - heading "Approving a share request" [level=4] [ref=e349]
+                  - paragraph [ref=e350]: For approving share requests, you can use the IBM Cloud UI or CLI. If the option to approve share requests is not available in the UI, you can use IBM Cloud CLI to approve the request.
+                  - paragraph [ref=e351]: "To approve a share request from the IBM Cloud CLI, use the following command:"
+                  - generic [ref=e352]:
+                    - generic "Code snippet" [ref=e353]:
+                      - code [ref=e355]: ibmcloud catalog account set-approval-state-source --object-kind vpe --approval-state approved -account-ids "-acct-<target_account_ID>"
+                    - generic [ref=e356]:
+                      - button "Copy to clipboard" [ref=e358] [cursor=pointer]
+                      - tooltip
+                - generic [ref=e362]:
+                  - heading "Verifying approval" [level=4] [ref=e363]
+                  - paragraph [ref=e364]: "To verify that the customer has accepted the share request, use the following command:"
+                  - generic [ref=e365]:
+                    - generic "Code snippet" [ref=e366]:
+                      - code [ref=e368]: "ibmcloud catalog account get-approval-list-source --object-kind vpe --approval-state approved { \"first\": \"/api/v1-beta/shareapproval/vpe/access/source/approved?limit=100\", \"limit\": 100, \"resource_count\": 1, \"resources\": [ { \"_id\": \"<account_ID>\", \"_rev\": \"2-93907d1b7d449c1a82914dfde604f316\", \"account\": \"ab1cde234f5g678h9ij10k1l234m56\", \"account_type\": 3, \"created\": \"2025-02-26T01:15:21.513749288-05:00\", \"id\": \"-acct-ab1cde234f5g678h9ij10k1l234m56\", \"target_account\": \"<target_account_ID>\", \"target_kind\": \"vpe\" } ] }"
+                    - generic [ref=e369]:
+                      - button "Copy to clipboard" [ref=e371] [cursor=pointer]
+                      - tooltip
+                  - paragraph [ref=e375]: This command returns a list of approved requests, including the account ID and target account ID.
+      - navigation "Back to top"
+      - generic [ref=e376]:
+        - generic [ref=e377]: While IBM values the use of inclusive language, terms that are outside of IBM's direct influence, for the sake of maintaining user understanding, are sometimes required. As other industry leaders join IBM in embracing the use of inclusive language, IBM will continue to update the documentation to reflect those changes.
+        - generic [ref=e378]: © Copyright IBM Corporation 2024
+      - contentinfo "footer" [ref=e382]:
+        - navigation [ref=e384]:
+          - generic [ref=e385]:
+            - generic [ref=e386]:
+              - link "IBM logo" [ref=e388] [cursor=pointer]:
+                - /url: https://www.ibm.com/
+              - list [ref=e395]:
+                - generic:
+                  - listitem [ref=e396]:
+                    - link "Contact IBM" [ref=e397] [cursor=pointer]:
+                      - /url: https://www.ibm.com/contact?lnk=flg-cont-usen
+                  - listitem [ref=e398]:
+                    - link "Privacy" [ref=e399] [cursor=pointer]:
+                      - /url: https://www.ibm.com/us-en/privacy
+                  - listitem [ref=e400]:
+                    - link "Terms of use" [ref=e401] [cursor=pointer]:
+                      - /url: https://www.ibm.com/legal?lnk=flg-tous-usen
+                  - listitem [ref=e402]:
+                    - link "Accessibility" [ref=e403] [cursor=pointer]:
+                      - /url: https://www.ibm.com/able/?lnk=flg-acce-usen
+            - generic [ref=e405] [cursor=pointer]:
+              - generic [ref=e406]:
+                - combobox [ref=e407]: English
+                - button [ref=e408]
+              - generic: Arabic / عربية
+              - generic: Bulgarian / Български
+              - generic: Catalan / Català
+              - generic: Czech / Čeština
+              - generic: Danish / Dansk
+              - generic: German / Deutsch
+              - generic: Greek / Ελληνικά
+              - generic: English
+              - generic: Spanish / Español
+              - generic: Finnish / Suomi
+              - generic: French / Français
+              - generic: Croatian / Hrvatski
+              - generic: Hungarian / Magyar
+              - generic: Italian / Italien
+              - generic: Hebrew / עברית
+              - generic: Japanese / 日本語
+              - generic: Korean / 한국어
+              - generic: Kazakh / Қазақша
+              - generic: Dutch / Nederlands
+              - generic: Norwegian / Norsk
+              - generic: Polish / polski
+              - generic: Portuguese/Brazil / Português/Brasil
+              - generic: Portuguese/Portugal / Português/Portugal
+              - generic: Romanian / Română
+              - generic: Russian / Русский
+              - generic: Slovak / Slovenčina
+              - generic: Slovenian / slovenščina
+              - generic: Serbian / srpski
+              - generic: Swedish / Svenska
+              - generic: Thai / ภาษาไทย
+              - generic: Turkish / Türkçe
+              - generic: Vietnamese / Việt
+              - generic: Chinese Simplified / 简体中文
+              - generic: Chinese Traditional / 繁體中文
+      - navigation "IBM Documentation Help" [ref=e415]:
+        - list [ref=e416]:
+          - listitem [ref=e417]:
+            - link "IBM Documentation Help" [ref=e418] [cursor=pointer]:
+              - /url: /docs/en/about
+    - complementary "announcements-right-navigation" [ref=e420]:
+      - list "content-chapters-navigation" [ref=e424]:
+        - listitem [ref=e425]: – On this page
+        - listitem [ref=e426]:
+          - link "Accessing endpoints on IBM Cloud" [ref=e428] [cursor=pointer]:
+            - /url: "#accessing-endpoints-on-ibm-cloud"
+        - listitem [ref=e429]:
+          - link "Public network" [ref=e431] [cursor=pointer]:
+            - /url: "#public_net"
+        - listitem [ref=e432]:
+          - link "Private network" [ref=e434] [cursor=pointer]:
+            - /url: "#private_net"
+        - listitem [ref=e435]:
+          - link "Using IBM Cloud service to enable private endpoints" [ref=e437] [cursor=pointer]:
+            - /url: "#using-ibm-cloud-service-to-enable-private-endpoints"
+        - listitem [ref=e438]:
+          - link "Provisioning with service endpoints (Dallas, Frankfurt, Tokyo, London)" [ref=e440] [cursor=pointer]:
+            - /url: "#provisioning-with-service-endpoints-dallas-frankfurt-tokyo-london"
